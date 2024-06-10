@@ -6,7 +6,6 @@ function App() {
     return (
         <div className={s.App}>
             <HW1/>
-            <h1>USERS</h1>
             {/*раскомментировать по ходу выполнения*/}
             {/*<HW2/>*/}
             {/*<HW3/>*/}
