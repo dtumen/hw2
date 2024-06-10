@@ -41,6 +41,7 @@ export const friendMessage0: MessageType = {
 }
 
 const HW1 = () => {
+    console.log('h1');
     return (
         <div id={'hw1'}>
             <div className={s2.hwTitle}>Homework #1</div>
