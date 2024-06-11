@@ -14,14 +14,18 @@ export const pureAddUser = (name: string,
 
     // если имя пустое - показать ошибку, иначе - добавить юзера и очистить инпут
     if (name.trim() === '') {
-        setError("Ошибка! Введите имя!");
+        setError('Ошибка! Введите имя!');
     } else {
         addUserCallback(name);
         setName('');
     }
 }
 
-export const pureOnBlur = (name: any, setError: any) => { // если имя пустое - показать ошибку
+export const pureOnBlur = (name: string, setError: (error: string) => void) => {
+    // если имя пустое - показать ошибку
+    if (name.trim() === '') {
+        setError("Ошибка! Введите имя!")
+    }
 }
 
 export const pureOnEnter = (e: any, addUser: any) => { // если нажата кнопка Enter - добавить
