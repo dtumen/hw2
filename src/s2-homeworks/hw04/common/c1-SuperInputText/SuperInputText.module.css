@@ -2,19 +2,42 @@
 }
 
 .input {
+    width: 100%;
+    min-height: 36px;
+
+    padding: 5px;
+
+    box-sizing: border-box;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 5px;
 }
 
 .inputWrapper {
+    width: 372px;
 }
 
 .superInput {
 }
 
 .errorInput {
+    box-sizing: border-box;
+    border: 1px solid rgb(204, 20, 57);
+    border-radius: 5px;
 }
 
 .errorInput:focus {
+    box-sizing: border-box;
+    border: 1px solid rgb(204, 20, 57);
+    border-radius: 5px;
+    outline: red;
 }
 
 .error {
+    color: rgb(204, 20, 57);
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0%;
+    text-align: left;
 }
