@@ -62,13 +62,17 @@
 
 
 .default:active {
+    box-shadow: 2px 2px 5px #000000;
 }
 
 .secondary:active {
+    box-shadow: 2px 2px 5px #000000;
 }
 
 .red:active {
+    box-shadow: 2px 2px 5px #000000;
 }
 
 .button:disabled {
+    box-shadow: 2px 2px 5px #000000;
 }
