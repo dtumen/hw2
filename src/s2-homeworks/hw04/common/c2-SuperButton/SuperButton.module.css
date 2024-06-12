@@ -1,25 +1,63 @@
 .button {
+    padding: 5px 24px;
+    width: 132px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    border: none;
 }
 
 .disabled {
+    color: rgb(0, 46, 92);
+    border-radius: 3px;
+    background: #004D99;
+    opacity: 0.5;
+
 }
 
 .secondary {
+    box-sizing: border-box;
+    border: 1px solid #0066CC;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    color: #0066CC;
+
+    width: 176px;
 }
 
 .default {
+    border-radius: 3px;
+    background: #0066CC;
 }
 
 .red {
+    border-radius: 3px;
+
+    /* Danger/100 */
+    background: #CC1439;
 }
 
 .default:hover {
+    opacity: 0.9;
+    background-color: #FFFFFF;
+    color: #0066CC;
+    outline: 1px solid #0066CC;
 }
 
 .red:hover {
+    opacity: 0.9;
+    background-color: #FFFFFF;
+    color: red;
+    outline: 1px solid red;
 }
 
 .secondary:hover {
+    opacity: 0.9;
+    background-color: #0066CC;
+    color: #FFFFFF;
 }
 
 
