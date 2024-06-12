@@ -41,38 +41,30 @@
 }
 
 .default:hover {
-    opacity: 0.9;
-    background-color: #FFFFFF;
-    color: #0066CC;
-    outline: 1px solid #0066CC;
+    background: #0080FF;
 }
 
 .red:hover {
-    opacity: 0.9;
-    background-color: #FFFFFF;
-    color: red;
-    outline: 1px solid red;
+    background-color: #FF1A47;
 }
 
 .secondary:hover {
-    opacity: 0.9;
-    background-color: #0066CC;
-    color: #FFFFFF;
+    background-color: rgb(229, 240, 250);
 }
 
 
 .default:active {
-    box-shadow: 2px 2px 5px #000000;
+    background-color: #0059B3;
 }
 
 .secondary:active {
-    box-shadow: 2px 2px 5px #000000;
+    background-color: #C9E5FF;
 }
 
 .red:active {
-    box-shadow: 2px 2px 5px #000000;
+    background: #B31232;
 }
 
 .button:disabled {
-    box-shadow: 2px 2px 5px #000000;
+
 }
