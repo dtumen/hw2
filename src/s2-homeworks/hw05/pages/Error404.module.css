@@ -8,4 +8,6 @@
     display: flex;
     height: calc(100vh - var(--header_height));
     justify-content: center;
+    /*padding-left: 240px;*/
+    /*padding-right: 240px;*/
 }

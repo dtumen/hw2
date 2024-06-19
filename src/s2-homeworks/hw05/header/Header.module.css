@@ -2,7 +2,21 @@
 }
 
 .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 70px 15px 70px;
+    box-shadow: 0px 0px 2px 0px rgba(29, 33, 38, 0.1), 0px 0px 40px 0px rgba(29, 33, 38, 0.13);
+    background: rgb(255, 255, 255);
+    max-height: 60px;
+    margin-bottom: 47px;
 }
 
 .header h1 {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
 }
